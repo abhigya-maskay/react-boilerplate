@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Button } from 'antd';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Button</Button>
+      <Switch>
+        <Route path="/">
+          <Button type="primary">Button</Button>
+        </Route>
+      </Switch>
     </div>
   );
 }
