@@ -1,8 +1,8 @@
 /// <reference types="styled-components/cssprop"/>
-import React from 'react';
-import './App.css';
-import { Button } from 'antd';
-import { Route, Switch } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import { Button } from "antd";
+import { Route, Switch } from "react-router-dom";
 
 function App() {
   return (
