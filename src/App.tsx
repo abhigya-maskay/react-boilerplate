@@ -1,3 +1,4 @@
+/// <reference types="styled-components/cssprop"/>
 import React from 'react';
 import './App.css';
 import { Button } from 'antd';
